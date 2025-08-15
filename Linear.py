@@ -4,7 +4,13 @@ sum =0
 for i in L:
     sum = sum+i
 print(sum)    
-product =1
+product = 1
 for i in L:
     product=product*i
 print(product)    
+
+
+# o(n) + o(n) = O(n+n)
+            #   = O(2)
+            #    =O(n)  o/p Linear
+
