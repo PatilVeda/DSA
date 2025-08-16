@@ -19,12 +19,12 @@
 
 
 
-L = [1,2,3,4,5]
-for i in range(0,len(L)):
-    for j in range(i+1,len(L)):
-        print('{},{})'.format(L[i],L[j]))
+# L = [1,2,3,4,5]
+# for i in range(0,len(L)):
+#     for j in range(i+1,len(L)):
+#         print('{},{})'.format(L[i],L[j]))
 
 
-# O(n)*O(n-1)
-# O(n^2-n)
-# O(n^2)
+# # O(n)*O(n-1)
+# # O(n^2-n)
+# # O(n^2)
