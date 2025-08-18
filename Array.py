@@ -11,12 +11,20 @@ class MeraList:
 
     def __len__(self):
         return self.n 
+    
+
     def __str__(self):
          #[1,2,3,4]
          result = ''
          for i in range (self.n):
              result = result + str(self.A[i]) + ','
          return '['  + result[:-1] + ']'   
+    
+    def __getitem__(self,index):
+        if 0 <= index < self.n:
+           return self.A[index]
+        else:
+            return  'IndexError -  Index out of range' 
       
     def append(self,item):
         if self.n == self.size:
@@ -27,6 +35,7 @@ class MeraList:
         #append
         self.A[self.n]= item
         self.n = self.n + 1  
+        
 
 
     def __resize(self,new_capacity):
@@ -49,4 +58,5 @@ L.append(34)
 L.append(True)
 L.append(1000)
 L.append(45)
-print(L)
+L[1]
+# print(L)
