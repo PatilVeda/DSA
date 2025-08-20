@@ -9,8 +9,8 @@ class MeraList:
         #creat a ctype array with size  = self.size
         self.A = self.__make_array(self.size)
 
-    def __len__(self):
-        return self.n 
+    # def __len__(self):
+    #     return self.n 
     
 
     def __str__(self):
