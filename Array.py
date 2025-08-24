@@ -49,14 +49,14 @@
         self.A = B
 
 
-    def __make_array(self,capacity):
-        #create a c type array(static,referential) with size capacity
-        return(capacity*ctypes.py_object)()    
-L= MeraList() 
-L.append('hello')
-L.append(34)
-L.append(True)
-L.append(1000)
-L.append(45)
-L[1]
-# print(L)
+#     def __make_array(self,capacity):
+#         #create a c type array(static,referential) with size capacity
+#         return(capacity*ctypes.py_object)()    
+# L= MeraList() 
+# L.append('hello')
+# L.append(34)
+# L.append(True)
+# L.append(1000)
+# L.append(45)
+# L[1]
+# # print(L)
