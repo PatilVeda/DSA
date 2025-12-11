@@ -40,10 +40,10 @@
 
 
 # # a= int(input("enter a number"))
-# # b= int(input("enter a second number"))
-# # c=int(input("enter a third number"))
-# # def avrg(a,b,c):
-# #     sum=a+b+c
-# #     avg=sum/3
-# #     print(avg)
-# avrg(a,b,c)    
+# b= int(input("enter a second number"))
+# c=int(input("enter a third number"))
+# def avrg(a,b,c):
+#     sum=a+b+c
+#     avg=sum/3
+#     print(avg)
+avrg(a,b,c)    
